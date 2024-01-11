@@ -1,4 +1,5 @@
 class Solution:
+  
   def isAnagram(self, s, t):
     if len(s) != len(t):
       return False
@@ -18,6 +19,8 @@ class Solution:
         return False
       
     return True
+    
+  
 
 # call class and function 
 solution_instance = Solution()
@@ -25,7 +28,8 @@ s  = 'cat'
 t = 'tac'
 a = 'batman'
 b = 'patman'
-result = solution_instance.isAnagram(a, b)
+result = solution_instance.isAnagram(s, t)
 print("Are the two words anagrams of each other?", result)
+
   
   
