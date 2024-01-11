@@ -1,3 +1,9 @@
+# create a hashset
+# loop through num in list
+# check if num in hashset
+# if yes, return true
+# if no, put num in hashset
+
 class Solution:
     def containsDuplicate(self, nums):
         # Create an empty hash set to store unique elements
