@@ -22,7 +22,7 @@ nums = {1, 2, 4, 5}
 target = 7
 result = solution_instance.twoSum(nums, target)
 print(result)
-    
+  
 
 
 
