@@ -9,10 +9,11 @@
 
 class Solution:
   def longestCon(self, nums):
-    numSet = set(nums)
+    numSet = set(nums) # unique num in numSet
     longest = 0
     
     for num in numSet:
+      # start of sequence
       if (num - 1) not in numSet:
         length = 0
         while (num + length) in numSet:
